@@ -1,0 +1,26 @@
+.hashtag {
+  width: 140px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.hashtag__text {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media (min-width: $tablet-width) {
+  .hashtag {
+    margin-right: 104px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hashtag {
+    margin-right: 259px;
+  }
+}
