@@ -144,11 +144,11 @@
       }
 
       &::before {
-        left: 0;
+        left: 255px;
       }
 
       &::after {
-        right: 0;
+        right: 255px;
       }
     }
   }
